@@ -1,0 +1,41 @@
+.container {
+    justify-content: center;
+}
+
+/* upper */
+
+/* center */
+.center-container {
+    width: 100%;
+    text-align: center;
+}
+
+.center-container-logo {
+    height: auto;
+    width: 250px;
+    margin: 0 24px;
+}
+
+.center-container-search-bar {
+    height: 24px;
+    width: 600px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* lower */
+.lower-container {
+    width: 60%; 
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    position: bottom;
+    padding: 20px;
+}
+
+.lower-container-upper-content {
+    height: 1000px;
+}

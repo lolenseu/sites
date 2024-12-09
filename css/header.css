@@ -1,0 +1,27 @@
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cacaca;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar {
+    margin: 0 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
